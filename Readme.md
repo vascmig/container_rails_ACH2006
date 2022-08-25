@@ -12,7 +12,7 @@ https://git-scm.com/
 Abra o terminal e clone o respostório em alguma pasta local
 
 ````
-git clone https://github.com/Ferch42/tutorial_rails_docker_ENG_SOFT.git
+git clone https://github.com/vascmig/container_rails_ACH2006.git
 ````
 
 ## Terceiro passo 
