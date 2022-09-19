@@ -24,20 +24,26 @@ docker compose run --no-deps web rails new . --force --no-deps
 
 ## Quarto passo 
 
+Copie o conteúdo do arquivo [Gemfile](https://raw.githubusercontent.com/vascmig/container_rails_ACH2006/master/Gemfile) desse repositório para a versão local do arquivo em seu computador. 
+(O arquivo foi sobrescrito após executar o passo anterior).
+
+
+## Quinto passo 
 Construa a imagem do container docker
 
 ````
 docker compose build
 ````
 
-## Quinto passo 
+## Sexto passo 
 Inicie a execução do container
 
 ````
 docker compose up
 ````
 
-## Sexto passo 
+
+## Sétimo passo 
 Execute os comandos, dentro do mesmo diretório do projeto (em outro terminal, ou seja, não feche o terminal que está rodando o programa do docker)
 
 ````
@@ -45,7 +51,8 @@ docker compose exec web rails generate rspec:install
 docker compose exec web rails generate cucumber:install
 ````
 
-## Sétimo passo 
+
+## Oitavo passo 
 Para validar se tudo foi executado corretamente, teste os seguintes comandos:
 
 ````
@@ -70,5 +77,6 @@ docker compose exec web rails routes
 É possível que o git mude as quebras de linha de Linux para Windows, o que ocasionará um erro ao seguir o tutorial. Neste caso, certifique-se de que TODOS os arquivos utilizados utilizem a terminação de linha LF em vez de CRLF.
 
 # Para dúvidas
+
 
 Por favor, em caso de dúvidas postar no fórum online do e-disciplinas
